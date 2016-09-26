@@ -45,7 +45,7 @@ Notes
 - This theme has not been tested with a 4/3 ratio. You may come across some ugliness with the metadata on the Detailed view.
 - This theme probably won't look very good on smaller screens (such as hand-helds) due to the amount of content on the Detailed View.
 - I have left out the "lastplayed" and "playcount" (because I don't use them) metadata, but there is space there to add them back in if you want them.
-- There is also space left at the bottom of the metadata area for the Child-Friendly icons, but they are giving me grief, so have left them out for now.
+- Child-Friendly icons now work.
 - I have only created folders for the consoles that I use, as I have limited free time to do this, but it is simple to create your own System folders:
 
 	1. Copy an existing folder.
@@ -58,6 +58,11 @@ Notes
 
 Changelog
 ---------
+
+2016-09-26
+v1.1
+- Fixed Child-Friendly icons
+- Removed forceUppercase on gamelists
 
 2016-08-01
 v1.0 Initial version
