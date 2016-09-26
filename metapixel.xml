@@ -87,7 +87,6 @@ based on:		"Pixel" by Eric Hettervik
 			<secondaryColor>d5d5d5</secondaryColor>
 			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.02</fontSize>
-			<forceUppercase>0</forceUppercase>
 		</textlist>
 
 		<image name="logo" extra="true">
@@ -201,22 +200,22 @@ based on:		"Pixel" by Eric Hettervik
 				<pos>0.435 0.5</pos>
 			</text>
 
-			<!-- <image name="md_favorite, md_kidgame, md_hidden" extra="true">
+			<image name="md_favorite, md_kidgame, md_hidden">
 				<origin>0.5 0.5</origin>
 				<maxSize>0.03 0.055</maxSize>
 			</image>
-				<image name="md_favorite" extra="true">
+				<image name="md_favorite">
 					<pos>0.470 0.620</pos>
 					<path>./art/icon_favourite.svg</path>
 				</image>
-				<image name="md_kidgame" extra="true">
+				<image name="md_kidgame">
 					<pos>0.525 0.620</pos>
 					<path>./art/icon_kid.svg</path>
 				</image>
-				<image name="md_hidden" extra="true">
+				<image name="md_hidden">
 					<pos>0.580 0.620</pos>
 					<path>./art/icon_hidden.svg</path>
-				</image> -->
+				</image>
 
 		<image name="md_image">
 			<pos>0.812 0.338</pos>
