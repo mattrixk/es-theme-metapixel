@@ -69,6 +69,6 @@ v1.0 Initial version
 
 ---
 
-Theme 'metapixel' v1.0 - 2016-08-01
+Theme 'metapixel' v1.1 - 2016-09-26
 (c) Matt Kennedy - info@cutmonkey.net - http://cutmonkey.net/
 For use with EmulationStation (http://www.emulationstation.org/)
