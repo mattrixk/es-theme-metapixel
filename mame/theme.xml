@@ -28,7 +28,7 @@
 			<path>./screenshot1.jpg</path>
 		</image>
 		<image name="screenshot_right" extra="true">
-			<path>./screenshot2.jpg</path>
+			<path>./screenshot3.jpg</path>
 		</image>
 	</view>
 
