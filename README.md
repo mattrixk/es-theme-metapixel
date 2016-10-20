@@ -55,9 +55,42 @@ Notes
 	5. Create new screenshots using your favourite image editor.
 	6. Change 'system_description' in theme.xml (all descriptions from thegamesdb).
 
+- Many new folders have been created by other users on the RetroPie forum. These are listed in the changelog
+- New fonts have been added, but they don't have the same size as the default font. If you want to use these other fonts, you will need to work out the sizing for yourself (sorry).
+
 
 Changelog
 ---------
+
+2016-10-20
+v1.2
+- Added folders:
+	- By @CourierSS
+		- amiga
+		- atari800
+		- atari2600
+		- atari5200
+		- atari7800
+		- atarilynx
+		- atarist
+		- colecovision
+		- daphne
+		- gameandwatch
+		- msx
+		- neogeo
+		- ngp
+		- ngpc
+		- residualvm
+		- sg-1000
+		- virtualboy
+		- wonderswan
+		- wonderswancolor
+	- By @SnipedintheHead
+		- arcade
+- Added more images to:
+	- fba
+	- mame
+- Added more fonts
 
 2016-09-26
 v1.1
@@ -69,6 +102,6 @@ v1.0 Initial version
 
 ---
 
-Theme 'metapixel' v1.1 - 2016-09-26
+Theme 'metapixel' v1.2 - 2016-10-20
 (c) Matt Kennedy - info@cutmonkey.net - http://cutmonkey.net/
 For use with EmulationStation (http://www.emulationstation.org/)
