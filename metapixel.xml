@@ -1,9 +1,9 @@
 <!--
 theme name:		MetaPixel
-version:		1.1
+version:		1.2
 author:			Matt Kennedy
 email:			info@cutmonkey.net
-website:		cutmonkey.net	
+website:		cutmonkey.net
 license:		creative commons CC-BY-NC-SA
 based on:		"Pixel" by Eric Hettervik
 -->
@@ -37,9 +37,32 @@ based on:		"Pixel" by Eric Hettervik
 		<helpsystem name="help">
 			<textColor>ffffffff</textColor>
 			<iconColor>ffffffff</iconColor>
-			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 		</helpsystem>
+
+		<!--
+			There are 5 pixel-based fonts available with this theme. You can change the font by changing "font1.ttf" to "font2.ttf" etc.
+			font1.ttf - Pixel-Noir Skinny
+			font2.ttf - SF Pixelate (the default Pixel theme font)
+			font3.ttf - DisposableDroid BB
+			font4.ttf - Press Start 2P
+			font5.ttf - Thin Pixel-7
+		-->
+		<helpsystem name="help">
+			<fontPath>./art/font1.ttf</fontPath>
+		</helpsystem>
+		<text name="system_description" extra="true">
+			<fontPath>./art/font1.ttf</fontPath>
+		</text>
+		<textlist name="gamelist">
+			<fontPath>./art/font1.ttf</fontPath>
+		</textlist>
+		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount, md_description">
+			<fontPath>./art/font1.ttf</fontPath>
+		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<fontPath>./art/font1.ttf</fontPath>
+		</datetime>
 		
 	</view>
 	
@@ -66,7 +89,6 @@ based on:		"Pixel" by Eric Hettervik
 			<pos>0.063 0.711</pos>
 			<size>0.876 0.198</size>
 			<color>ffffff</color>
-			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>0</forceUppercase>
@@ -85,7 +107,6 @@ based on:		"Pixel" by Eric Hettervik
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>d5d5d5</secondaryColor>
-			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 		</textlist>
 
@@ -163,7 +184,6 @@ based on:		"Pixel" by Eric Hettervik
 		</rating>
 
 		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount">
-			<fontPath>./art/font.ttf</fontPath>
 			<forceUppercase>0</forceUppercase>
 			<lineSpacing>1</lineSpacing>
 			<fontSize>0.014</fontSize>
@@ -176,7 +196,6 @@ based on:		"Pixel" by Eric Hettervik
 			</text>
 
 		<datetime name="md_releasedate, md_lastplayed">
-			<fontPath>./art/font.ttf</fontPath>
 			<forceUppercase>0</forceUppercase>
 			<fontSize>0.014</fontSize>
 			<color>ffffff</color>
@@ -238,7 +257,6 @@ based on:		"Pixel" by Eric Hettervik
 			<pos>0.33 0.71</pos>
 			<size>0.55 0.175</size>
 			<color>ffffff</color>
-			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>0</forceUppercase>
