@@ -31,7 +31,7 @@ Images
 Artwork
 -------
 
-- All Console & Logo graphics made by Eric Hettervik.
+- All Console & Logo graphics made by Eric Hettervik. Assets are NOT for use in other themes or projects. All Graphics Copyright ©2017 Eric Hettervik
 - 'Simple View' and 'System View' background images made by Eric Hettervik.
 - 'Detailed View' background image made by me, based on Eric Hettervik's design.
 - All border images made by me.
