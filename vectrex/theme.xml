@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>8a6fa8</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>8a6fa8</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>The Vectrex is a vector display-based home video game console that has an integrated vector monitor. The Vectrex is monochrome and uses plastic screen overlays to simulate color and various static graphics and decorations. At the time, many of the most popular arcade games used vector displays, and through a licensing deal with Cinematronics, GCE was able to produce high-quality versions of arcade games such as Space Wars and Armor Attack.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>8a6fa888</selectorColor>

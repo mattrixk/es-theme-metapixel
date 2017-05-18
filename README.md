@@ -1,6 +1,7 @@
 # MetaPixel
 Theme for Emulationstation and RetroPie
 
+MetaPixel now supports Video Previews.
 
 About
 -----
@@ -63,6 +64,10 @@ Changelog
 ---------
 
 2016-10-20
+v1.3
+- Added Video Preview Support
+
+2016-10-20
 v1.2
 - Added folders:
 	- By @CourierSS
@@ -102,6 +107,6 @@ v1.0 Initial version
 
 ---
 
-Theme 'metapixel' v1.2 - 2016-10-20
+Theme 'metapixel' v1.3 - 2017-05-18
 (c) Matt Kennedy - info@cutmonkey.net - http://cutmonkey.net/
 For use with EmulationStation (http://www.emulationstation.org/)

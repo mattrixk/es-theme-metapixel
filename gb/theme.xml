@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>417dd4</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>417dd4</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>The Game Boy, is an 8-bit handheld video game device developed and manufactured by Nintendo. It was released in Japan on April 21, 1989, in North America in August 1989, and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>417dd488</selectorColor>

@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>636363</color>
 		</image>
 
@@ -20,15 +20,19 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>636363</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>RetroPie Settings</text>
 		</text>
 
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<path>./../art/bg_simple.png</path>
 		</image>
 

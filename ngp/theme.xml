@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>77623E</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>77623E</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>The Neo Geo Pocket is a 16-bit fifth generation handheld video game console with a monochrome display released by SNK in October 1998 in Japan. The device never saw a release outside of Japan and smaller Asian markets. Despite SNK's confidence in its library of games, in just a year the handheld was discontinued as it could not compete with the largely successful Game Boy Color, which not only had color but also saw a western release, and it was quickly succeeded by the Neo Geo Pocket Color. Only nine games were released for the system, but it was completely forward compatible with its successor.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>77623E88</selectorColor>

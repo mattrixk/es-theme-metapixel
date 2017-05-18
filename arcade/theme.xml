@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>004688</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>004688</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>The Arcade folder can be used as another MAME folder, possibly as a way of keeping 3 and 4-player games separate from the rest.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>00468888</selectorColor>

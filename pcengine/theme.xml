@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>f79226</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>f79226</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>TurboGrafx-16, fully titled as TurboGrafx-16 Entertainment SuperSystem and known in Japan as the PC Engine, is a video game console developed by Hudson Soft and NEC, released in Japan on October 30, 1987, and in North America on August 29, 1989.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>f7922688</selectorColor>

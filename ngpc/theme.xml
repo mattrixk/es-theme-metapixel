@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>5F4E31</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>5F4E31</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>The Neo Geo Pocket Color is a 16-bit fifth generation handheld video game console created by SNK. In just six months after the Neo Geo Pocket had been released, the NGPC was launched in Japan in March 1999, sharing some of the hardware as its predecessor and featuring a color display. The handheld launched successfully but failed to maintain momentum due to poor third-party software support, the craze over Nintendo's Pokemon franchise, and competition with other handhelds. Suffering from financial troubles, SNK discontinued the NGPC after two years as the company collapsed and was purchased by Aruze. Despite its short life, the NGPC was regarded as an influential system.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>5F4E3188</selectorColor>

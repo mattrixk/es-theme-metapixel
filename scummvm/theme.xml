@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>ff9400</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>ff9400</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>ScummVM stands for Script Creation Utility for Maniac Mansion (VM stands for virtual machine). ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>ff940088</selectorColor>

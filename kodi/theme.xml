@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>63B8FF</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>63B8FF</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>Kodi is an award-winning free and open source (GPL) software media center for playing videos, music, pictures, games, and more. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.</text>
 		</text>
@@ -33,9 +37,9 @@
 
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<path>./../art/bg_simple.png</path>
 		</image>
 

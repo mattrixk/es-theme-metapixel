@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>63B8FF</color>
 		</image>
 
@@ -19,6 +19,10 @@
 	</view>
 
 	<view name="system">
+
+		<image name="background" extra="true">
+			<color>63B8FF</color>
+		</image>
 
 		<text name="system_description" extra="true">
 			<text>The Super Nintendo Entertainment System (also known as the Super NES, SNES or Super Nintendo) is a 16-bit video game console that was released by Nintendo in North America, Europe, Australasia (Oceania), and South America between 1990 and 1993. In Japan and Southeast Asia, the system is called the Super Famicom</text>

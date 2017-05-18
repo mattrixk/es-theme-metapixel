@@ -2,9 +2,9 @@
 	<formatVersion>4</formatVersion>
 	<include>./../metapixel.xml</include>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<color>cda932</color>
 		</image>
 
@@ -20,6 +20,10 @@
 
 	<view name="system">
 
+		<image name="background" extra="true">
+			<color>cda932</color>
+		</image>
+
 		<text name="system_description" extra="true">
 			<text>The Atari Lynx is an 8-bit fourth generation handheld game console developed by Epyx and manufactured by Atari Corporation in 1989. It was praised for its specifications, featuring at the time technology advanced for a handheld such as a color display, which was backlit. While it sold according to Atari's expectations, when compared to its competitors, the Sega Game Gear and Nintendo Game Boy, it did not do as well as both featured stronger game libraries. Later the Lynx II was released in 1991 with improved hardware. The Lynx would sell about 3 million units in total.</text>
 		</text>
@@ -32,7 +36,7 @@
 		</image>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>cda93288</selectorColor>

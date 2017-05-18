@@ -1,6 +1,6 @@
 <!--
 theme name:		MetaPixel
-version:		1.2
+version:		1.3
 author:			Matt Kennedy
 email:			info@cutmonkey.net
 website:		cutmonkey.net
@@ -11,9 +11,9 @@ based on:		"Pixel" by Eric Hettervik
 <theme>
 	<formatVersion>4</formatVersion>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
-		<image name="background" extra="true">
+		<image name="background">
 			<tile>false</tile>
 			<color>7b7b7b</color>
 			<size>0 1</size>
@@ -100,7 +100,7 @@ based on:		"Pixel" by Eric Hettervik
 
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
 			<selectorColor>00000088</selectorColor>
@@ -144,9 +144,9 @@ based on:		"Pixel" by Eric Hettervik
 
 	</view>
 
-	<view name="detailed">
+	<view name="detailed, video">
 		
-		<image name="background" extra="true">
+		<image name="background">
 			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
@@ -236,12 +236,6 @@ based on:		"Pixel" by Eric Hettervik
 					<path>./art/icon_hidden.svg</path>
 				</image>
 
-		<image name="md_image">
-			<pos>0.812 0.338</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.325 0.588</maxSize>
-		</image>
-
 		<text name="md_lbl_players">
 			<fontSize>0.018</fontSize>
 			<pos>0.020 0.7</pos>
@@ -271,6 +265,35 @@ based on:		"Pixel" by Eric Hettervik
 			<iconColor>ffffffff</iconColor>
 		</helpsystem>
 
+	</view>
+
+	<view name="detailed">
+
+		<image name="md_image">
+			<maxSize>0.325 0.610</maxSize>
+			<pos>0.812 0.345</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+
+	<view name="video">
+
+		<image name="md_marquee">
+			<maxSize>0.325 0.160</maxSize>
+			<pos>0.815 0.120</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<video name="md_video">
+			<maxSize>0.325 0.430</maxSize>
+			<pos>0.815 0.435</pos>
+			<origin>0.5 0.5</origin>
+			<delay>2.0</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+		
 	</view>
 	
 </theme>
